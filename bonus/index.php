@@ -26,7 +26,7 @@ include __DIR__ . "/components/pageHead.php"  ;
         </div>
 
         <div class="container-fluid">
-            <div class="container">
+            <div class="container dischi-container">
                 <div class="row row-cols-5">
                     <?php 
             foreach($cdList as $cd){

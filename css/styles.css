@@ -9,6 +9,8 @@
   height: 50px;
 }
 
+
+
 .filter-bar{
   background-color: rgb(71, 26, 26);
   display: flex;
@@ -37,6 +39,11 @@
 
 .container .row {
   row-gap: 20px;
+}
+
+
+.dischi-container{
+  min-height: 1000px;
 }
 
 .card {

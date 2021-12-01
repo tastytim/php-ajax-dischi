@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 <html>
 <?php 
-$title="Dischi VuePhp";
-include_once __DIR__ . "/components/pageHead.php"  
+$title="Pop";
+include __DIR__ . "/components/pageHead.php" ;
 ?>
 
 <body>
@@ -17,13 +17,23 @@ include_once __DIR__ . "/components/pageHead.php"
         <div class="navbar-custom"></div>
     </header>
     <main>
-        
+        <div class="filter">
+            <ul>
+            <li><a href="index.php">All</a></li>
+                <li><a href="pop.php">Pop</a></li>
+                <li><a href="rock.php">Rock</a></li>
+            </ul>
+        </div>
+
         <div class="container-fluid">
             <div class="container">
                 <div class="row row-cols-5">
                     <?php 
             foreach($cdList as $cd){
-                printCard($cd);
+                if($cd['genre']=="rock"){
+                    printCard($cd);
+                }
+                
             }
             ?>
                 </div>

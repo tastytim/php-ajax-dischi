@@ -9,6 +9,27 @@
   height: 50px;
 }
 
+.filter-bar{
+  background-color: rgb(71, 26, 26);
+  display: flex;
+  justify-content: center;
+}
+
+.filter-bar ul{
+  display: flex;
+  list-style: none;
+  margin-bottom:0;
+  padding: 20px 0;
+  
+}
+.filter-bar ul li{
+  padding: 0 20px;
+}
+.filter-bar ul li a{
+  color: white;
+  text-decoration: none;
+}
+
 .container-fluid {
   background-color: #1e2d3b;
   padding: 100px 0;

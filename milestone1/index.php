@@ -1,6 +1,6 @@
 <?php
    
-   include_once __DIR__ ."/../cd.php";
+   include_once __DIR__ ."/../data/cd.php";
    include __DIR__ ."/components/Card.php";
 
 ?>
